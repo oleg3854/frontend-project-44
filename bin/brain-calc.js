@@ -1,27 +1,30 @@
 #!/usr/bin/env node
-import readlineSync from 'readline-sync';
-import greeting from '../src/cli.js';
+import gameBody from '../src/gameBody.js';
 
-const userName = greeting();
-console.log('What is the result of the expression?');
+const description = 'What is the result of the expression?';
 
-const randomNumber = () => {
-  const a = Math.round(Math.random() * 100);
-  const b = Math.round(Math.random() * 100);
-  return [a, b];
-}
-console.log(randomNumber());
+const task = () => {
+  const operand1 = Math.round(Math.random * 10);
+  const operand2 = Math.round(Math.random * 10);
 
-const randomNumber = () => {
-  const a = Math.round(Math.random() * 100);
-  const b = Math.round(Math.random() * 100);
-  return [a, b];
-}
-const da = ['+', '-', '*'];
-const net = da[Math.round(Math.random() * 2)]; // 0, 1, 2
-console.log(net);
+  const operator = ['+', '*', '-'];
+  const indexOper = Math.floor(Math.random * 2);
 
-if (net === '-') {
-  return a - b;
-}
-// export default runCalcGame;
+  const answer = 0;
+
+  switch(indexOper) {
+    case 0:
+      answer = `${operand1 + operand2}`;
+      break;
+    case 1:
+      answer = `${operand1 * operand2}`;
+      break;
+    default:
+      answer = `${operand1 - operand2}`;
+      break;
+  }
+
+  return [`${operand1} ${operator[indexOper]} ${operand2}`, answer];
+};
+
+gameBody(description, task)
