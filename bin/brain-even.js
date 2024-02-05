@@ -20,4 +20,4 @@ const task = () => {
   return [q, a];
 };
 
-gameBody(description, task)
+gameBody(description, task);

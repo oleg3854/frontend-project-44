@@ -1,3 +1,4 @@
+import readlineSync from 'readline-sync';
 import greeting from '../src/cli.js';
 
 const gameBody = (description, taskFunc) => {
@@ -25,4 +26,4 @@ const gameBody = (description, taskFunc) => {
     console.log(`Congratulations, ${playerName}!`);
   }
 }
-export default gameBody();
+export default gameBody;
