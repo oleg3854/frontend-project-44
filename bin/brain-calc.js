@@ -10,7 +10,7 @@ const task = () => {
   const operator = ['+', '*', '-'];
   const indexOper = Math.floor(Math.random * 2);
 
-  const answer = 0;
+  let answer = 0;
 
   switch(indexOper) {
     case 0:
