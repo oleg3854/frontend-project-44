@@ -4,3 +4,4 @@
 
 https://asciinema.org/a/XZMlhJ71gWCVpJ02nwY39I5IN - brain-even.js
 https://asciinema.org/a/1x6NtxEh9J4qPq9C8nJTtkEhK - brain-calc.js
+https://asciinema.org/a/4UlOSJqviDXs6M89ntHwOdf0L - brain-gcd.js
