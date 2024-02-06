@@ -4,15 +4,15 @@ import gameBody from '../src/gameBody.js';
 const description = 'What is the result of the expression?';
 
 const task = () => {
-  const operand1 = Math.round(Math.random * 10);
-  const operand2 = Math.round(Math.random * 10);
+  const operand1 = Math.round(Math.random() * 10);
+  const operand2 = Math.round(Math.random() * 10);
 
   const operator = ['+', '*', '-'];
-  const indexOper = Math.floor(Math.random * 2);
+  const indexOper = Math.floor(Math.random() * 2);
 
   let answer = 0;
 
-  switch(indexOper) {
+  switch (indexOper) {
     case 0:
       answer = `${operand1 + operand2}`;
       break;
