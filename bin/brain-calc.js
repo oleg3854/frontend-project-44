@@ -27,4 +27,4 @@ const task = () => {
   return [`${operand1} ${operator[indexOper]} ${operand2}`, answer];
 };
 
-gameBody(description, task)
+gameBody(description, task);

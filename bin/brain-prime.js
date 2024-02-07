@@ -12,6 +12,6 @@ const task = () => {
     }
   }
   return [num, 'yes'];
-}
+};
 
 gameBody(description, task);

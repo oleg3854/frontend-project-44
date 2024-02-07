@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import greeting from '../src/cli.js';
+import greeting from './cli.js';
 
 const gameBody = (description, taskFunc) => {
   const playerName = greeting();
@@ -25,5 +25,5 @@ const gameBody = (description, taskFunc) => {
   if (mark === 3) {
     console.log(`Congratulations, ${playerName}!`);
   }
-}
+};
 export default gameBody;
