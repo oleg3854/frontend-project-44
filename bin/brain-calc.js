@@ -8,7 +8,7 @@ const task = () => {
   const operand2 = Math.round(Math.random() * 10);
 
   const operator = ['+', '*', '-'];
-  const indexOper = Math.floor(Math.random() * 2);
+  const indexOper = Math.floor(Math.random() * 3);
 
   let answer = 0;
 
