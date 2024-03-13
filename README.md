@@ -8,4 +8,4 @@ https://asciinema.org/a/4UlOSJqviDXs6M89ntHwOdf0L - brain-gcd.js
 https://asciinema.org/a/UC8365IvLCtej3Szk0kNXdbrj - brain-progression.js
 https://asciinema.org/a/YLtiCUawJVzteE7TOSFJrmByk - brain-prime.js
 
-[![asciicast](https://asciinema.org/a/bJMOlPe5F4mFLY0Rl6fiJSOp3.svg)](https://asciinema.org/a/XZMlhJ71gWCVpJ02nwY39I5IN )
+[![asciicast](https://asciinema.org/a/bJMOlPe5F4mFLY0Rl6fiJSOp3.svg)](https://asciinema.org/a/XZMlhJ71gWCVpJ02nwY39I5IN) - brain-even.js
